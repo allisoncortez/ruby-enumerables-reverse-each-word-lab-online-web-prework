@@ -3,8 +3,8 @@ string = string.split('')
 reversed_string = []
  
 string.each do |word|
-  reversed_string.push(word)
-  word.reverse
+  reversed_string.push(word.reverse)
+  # word.reverse
 end
  
 return reversed_string.join('')
