@@ -4,6 +4,7 @@ reversed_string = []
  
 string.each do |word|
   reversed_string.push(word)
+  word.reverse
 end
  
 return reversed_string.join('')
