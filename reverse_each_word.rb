@@ -3,7 +3,7 @@ string = string.split('')
 reversed_string = []
  
 string.each do |word|
-  word.unshift(word)
+  word.reverse(word)
 end
  
 return reversed_string.join('')
