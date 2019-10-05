@@ -3,10 +3,10 @@ string = string.split('')
 reversed_string = []
  
 string.each do |word|
-  reversed_string.push(word.reverse)
-  # word.reverse
+  reversed_string.push(word)
+  
 end
- 
+ word.reverse
 return reversed_string.join('')
 end
 
